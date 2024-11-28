@@ -9,9 +9,18 @@ export default {
   theme: {
     extend: {
       colors: {
+        "primary" : "#ec2332",
+        "secondary" : "#d9d9d9",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundColor: {
+        "primary" : "#ec2332",
+        "secondary" : "#d9d9d9",
+      },
+      backgroundImage : {
+        "banner" : "url('/assets/image-banner.png')"
+      }
     },
   },
   plugins: [],

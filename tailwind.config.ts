@@ -19,7 +19,10 @@ export default {
         "secondary" : "#d9d9d9",
       },
       backgroundImage : {
-        "banner" : "url('/assets/image-banner.png')"
+        "banner" : "url('/assets/contact.png')"
+      },
+      screens : {
+        xs : '350px'
       }
     },
   },

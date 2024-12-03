@@ -8,18 +8,18 @@ export const Navlink = [
   },
   {
     id: 2,
+    name: "About",
+    href: "/about",
+  },
+  {
+    id: 3,
     name: "Brands",
     href: "/brand",
   },
   {
-    id: 3,
+    id: 4,
     name: "Sale",
     href: "/sale",
-  },
-  {
-    id: 4,
-    name: "About",
-    href: "/about",
   },
   {
     id: 5,

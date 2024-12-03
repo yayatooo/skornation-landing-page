@@ -2,12 +2,13 @@ import { CircleArrowLeft } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 
+
 export const AboutUs = () => {
   return (
     <div className="container mx-auto">
         <div className="flex justify-between items-end">
           <div>
-            <h1 className="font-extrabold text-7xl text-white">
+            <h1 className="font-extrabold lg:text-7xl xs:text-4xl text-white">
               FIND YOUR <br /> GREATNESS.
             </h1>
           </div>
@@ -15,7 +16,7 @@ export const AboutUs = () => {
             <CircleArrowLeft size={75} className="text-white rotate-45" />
           </div>
         </div>
-        <div className="flex py-8 absolute">
+        <div className="flex py-8 xs:static lg:absolute">
           <div>
             <Image
               src="/assets/about-img.png"
@@ -24,7 +25,7 @@ export const AboutUs = () => {
               alt="about"
             />
           </div>
-          <div className="-rotate-90 ml-16 mt-20">
+          <div className="-rotate-90 ml-16 mt-20 xs:hidden lg:inline">
             <Image
               src="/assets/logo-white.png"
               width={500}

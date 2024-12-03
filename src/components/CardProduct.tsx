@@ -8,8 +8,8 @@ export const CardProduct = ({
   genderCategory
 }: ProductCardProps) => {
   return (
-    <div className="w-[245px]">
-      <div className="relative w-[245px] h-[245px]">
+    <div className=" w-[340px] lg:w-[479px] bg-white">
+      <div className="relative lg:w-[479px] lg:h-[479px] w-[340px] h-[340px]">
         <Image
           src={image}
           alt="product"

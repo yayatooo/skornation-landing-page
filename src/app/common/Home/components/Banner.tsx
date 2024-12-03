@@ -10,7 +10,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 
 export const Banner = () => {
   return (
-    <section className="w-full h-[700px] bg-secondary flex flex-col justify-center">
+    <section className="w-full xs:h-[300px] lg:h-[700px] flex flex-col justify-center">
       <div className="relative group">
         <Swiper
           modules={[Navigation, Autoplay]}
@@ -18,19 +18,33 @@ export const Banner = () => {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
           }}
+          breakpoints={{
+            350: {
+              slidesPerView: 1,
+              spaceBetween: 24,
+            },
+            768: {
+              slidesPerView: 1,
+              spaceBetween: 32,
+            },
+            1024: {
+              slidesPerView: 1.3,
+              spaceBetween: 26,
+            },
+          }}
           autoplay={{
             delay: 5000,
             disableOnInteraction: false,
           }}
           loop={true}
-          spaceBetween={30} // Adds spacing between slides
-          slidesPerView={1.3} // Shows partial slides on the sides
+          // spaceBetween={30} // Adds spacing between slides
+          // slidesPerView={1.3} // Shows partial slides on the sides
           centeredSlides={true} // Centers the active slide
           className="relative"
         >
           {BannerSlide.map((item) => (
             <SwiperSlide key={item.id}>
-              <div className="relative h-[600px] w-full overflow-hidden py-10">
+              <div className="relative xs:h-[300px] lg:h-[600px] w-full overflow-hidden py-10">
                 <Image
                   src={item.image}
                   alt={item.title}

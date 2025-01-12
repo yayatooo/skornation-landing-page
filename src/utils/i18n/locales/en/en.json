@@ -1,0 +1,77 @@
+{
+    "AboutStore": {
+      "Title": "Explore Our Store",
+      "Description": "To become the go-to destination for sports products, synonymous with quality, innovation, and customer satisfaction."
+    },
+    "BrandPage": {
+      "Title": "Our Brands"
+    },
+    "CollectionPage": {
+      "Title": "Our Product",
+      "Title2": "Our Category",
+      "Description": "We offer a diverse selection of products designed for both performance and lifestyle needs, ensuring you have the right gear for every activity."
+    },
+    "AboutUs": {
+      "Title": "About Us",
+      "Description": "Bold Lifestyle is a newly established multi-brand sports company that launched in September 2024, operating the store SKOR. Our mission is to inspire athletes and active individuals of all levels by offering a curated selection of stylish and functional products from leading brands, ensuring that our customers find exactly what they need to enhance their active lifestyles.",
+      "SubDescription": "We take pride in our adaptability and openness to innovation, welcoming new brands into our portfolio. This flexibility enables us to continuously evolve and respond to market trends, ensuring that we not only meet but exceed our customer's expectations.",
+      "HeadLine": "Together we are unstoppable",
+      "BrandsProfile": "Our International Brands",
+      "BrandsProfileDescription": "We offer a diverse selection of products designed for both performance and lifestyle needs, ensuring you have the right gear for every activity.",
+      "SwiperProfile": "Our offerings include options for:"
+    },
+    "ProductPage": {
+      "Title": "Top Rated Products"
+    },
+    "ReviewPage": {
+      "Title": "Loved by People",
+      "Description": "Here's what some of our users have to say about SKOR"
+    },
+    "PromoPage": {
+      "Title": "JOIN & SUBSCRIBE GET 10% OFF",
+      "Button": "Sign up for Free"
+    },
+    "NotFound": {
+      "title": "Not Found",
+      "description": "Could not find requested resource",
+      "returnHome": "Return Home"
+    },
+    "Button": {
+      "discoverMore": "Discover More"
+    },
+    "Address": {
+      "address": "#443A, Preah Monivong Blvd (93), St.105, Sangkat Boeung Prolit, Khan 7 Makara, Phnom Penh",
+      "getDirection": "Get Direction"
+    },
+    "nav": {
+      "home": "Home",
+      "brands": "Brands",
+      "about": "About",
+      "sale": "Products",
+      "store": "Store"
+    },
+    "badges": {
+      "sportCasual": "Sport Casual",
+      "fitness": "Fitness",
+      "training": "Training",
+      "running": "Running",
+      "football": "Football",
+      "basketball": "Basketball",
+      "golf": "Golf",
+      "skateboarding": "Skateboarding",
+      "swim": "Swimming",
+      "tennis": "Tennis"
+    },
+    "footer" : {
+      "contactUs": "Contact Us",
+      "followUs": "Follow Us",
+      "telegram": "Telegram",
+      "facebook": "Facebook",
+      "tiktok": "Tiktok"
+    },
+    "category" : {
+      "appareal" : "Appareal",
+      "footwear" : "Footwear",
+      "accessories" : "Accessories"
+    }
+  }

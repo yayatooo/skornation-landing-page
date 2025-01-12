@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* English Font: Maven Pro */
+.font-en {
+    font-family: "Maven Pro", sans-serif;
+  }
+  
+  /* Khmer Font: Hanuman */
+  .font-kh {
+    font-family: "Hanuman", serif;
+  }
